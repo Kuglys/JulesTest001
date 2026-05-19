@@ -17,9 +17,27 @@
     </style>
 </head>
 <body>
-    <div id="number-display"></div>
+    <div id="number-display">Loading...</div>
     <script>
-        document.getElementById('number-display').textContent = '5';
+        async function loadNumber() {
+            const display = document.getElementById('number-display');
+
+            try {
+                const response = await fetch('/api/number');
+                const data = await response.json();
+
+                if (!response.ok) {
+                    throw new Error(data.error || 'Python script failed');
+                }
+
+                display.textContent = data.output;
+            } catch (error) {
+                display.textContent = 'Error';
+                console.error(error);
+            }
+        }
+
+        loadNumber();
     </script>
 </body>
 </html>
