@@ -5,12 +5,12 @@ This repository is a multi-agent collaborative environment. All editors must res
 
 | Agent | Domain/Role | Primary Expertise |
 | :--- | :--- | :--- |
-| **Me (Human)** | Architect & Reviewer | Final authority on all changes and direction. |
-| **GeminiCLI** | Strategic Orchestrator | Research, planning, and high-level project management. |
-| **Jules (Google)** | Asynchronous Developer | Background tasks, large-scale refactoring, and automated PRs. |
-| **ClaudeCode** | Logic & Analysis | Complex reasoning, logic verification, and deep code analysis. |
-| **Codex (OpenAI)** | Surgical Editor | Quick edits, boilerplate, and real-time pair programming. |
-| **Antigravity** | Infrastructure & Tools | System-level tasks and automation scripts. |
+| **Me (Human)** | [TO BE DEFINED] | [TO BE DEFINED] |
+| **GeminiCLI** | [TO BE DEFINED] | [TO BE DEFINED] |
+| **Jules (Google)** | [TO BE DEFINED] | [TO BE DEFINED] |
+| **ClaudeCode** | [TO BE DEFINED] | [TO BE DEFINED] |
+| **Codex (OpenAI)** | [TO BE DEFINED] | [TO BE DEFINED] |
+| **Antigravity** | [TO BE DEFINED] | [TO BE DEFINED] |
 
 ## Engineering Standards
 - **Style Consistency:** Adhere to existing project conventions (PEP 8 for Python, Prettier for JS/TS).
